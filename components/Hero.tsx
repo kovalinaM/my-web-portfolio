@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa";
+import { FaLink} from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -38,7 +38,7 @@ const Hero = () => {
             <a href="#">
               <MagicButton 
                 title="Посмотреть резюме"
-                icon={<FaLocationArrow/>}
+                icon={<FaLink />}
                 position="right"
                 />
             </a>
