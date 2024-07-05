@@ -43,7 +43,7 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex items-center justify-center">
-                    <p className="flex lg:text-xl sm:text-xs text-sm text-purple">Check Live Site</p>
+                    <p className="flex lg:text-xl sm:text-xs text-sm text-purple">Посмотреть</p>
                     <FaLocationArrow className="ms-3" color="#CBACF9"/>
                 </div>
               </div>

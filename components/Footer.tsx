@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <footer className='w-full pb-10 mb-[100px] md:mb-5' id="contact">
         <div className='flex flex-col items-center justify-center'>
-            <h1 className='w-full heading lg:max-w-[45vw]'>Ready to take your digital presence to the next level?</h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out me today and let`s discuss how I can help you achieve your goals.</p>
-            <a href='#'>
+            <h1 className='w-full heading lg:max-w-[65vw]'>Есть вопросы или предложения?</h1>
+            {/* <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out me today and let`s discuss how I can help you achieve your goals.</p> */}
+            <a href='https://t.me/marishine1106'>
                 <MagicButton
-                    title="Let`s get in touch"
+                    title="Написать в Telegram"
                     icon={<FaLocationArrow/>}
                     position='right'
                 />
