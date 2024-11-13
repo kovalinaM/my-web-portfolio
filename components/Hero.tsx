@@ -23,26 +23,27 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
       </div>
       <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h3 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Привет!</h3>
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Меня зовут Марина и я -</h2>
-          <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="HTML-верстальщик, фронтенд-разработчик"
-            />
+          <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+              {/*<h3 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Привет!</h3>*/}
+              <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-100 text-[30px]">Марина
+                  Ковалева</h2>
+              <TextGenerateEffect
+                  className="text-center text-[40px] md:text-5xl lg:text-6xl"
+                  words="Web-разработчик"
+              />
 
-            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Буду рада сотрудничеству!
-            </p>
+              <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+                  HTML, CSS, JAVA SCRIPT, CMS BITRIX, REACT
+              </p>
 
-            <a href="#">
-              <MagicButton 
-                title="Посмотреть резюме"
-                icon={<FaLink />}
-                position="right"
-                />
-            </a>
-        </div>
+              <a href="https://hh.ru/resume/cb61e92bff0ba060770039ed1f656a31474746">
+                  <MagicButton
+                      title="Посмотреть резюме"
+                      icon={<FaLink/>}
+                      position="right"
+                  />
+              </a>
+          </div>
       </div>
     </div>
   );
